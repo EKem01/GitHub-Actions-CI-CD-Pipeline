@@ -14,11 +14,8 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - name: failed step
-              run: |
-                echo "This step intentionally fails"
-                exit 1
-            - name: say goodbye
+            - name: successful step
               run: echo "Goodbye, World!"
+
 
   
